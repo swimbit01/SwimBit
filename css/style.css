@@ -1,0 +1,162 @@
+body {
+    background-color: black;
+    color:aliceblue;
+    font-family: Gloock;
+}
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.bitcount-single-swimbit{
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+
+.doto-pixel {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+
+.title{
+    display: grid;
+    margin-top: 50%;
+}
+
+.heading {
+    font-family: "Bitcount Single";
+    font-style: normal;
+    margin: auto;
+    font-size: 3vw;
+}
+
+.container-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.left {
+  background-color: #000000(0, 255, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.centre {
+  background-color: #000000;
+}
+
+.right {
+  background-color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  position: absolute
+}
+
+#yr {
+  width: 75%;
+  height: auto;
+  top: 47.5%;
+  z-index: 2;
+}
+
+#bg {
+  width: 75%;
+  height: auto;
+  top: 7.5%;
+  left: 30%;
+  z-index: 1;
+}
+
+#bp {
+  width: 75%;
+  height: auto;
+  left: 10%;
+  z-index: 3;
+}
+
+#mg {
+  width: 45%;
+  height: auto;
+  top: 30%;
+  left: 50%;
+  z-index: 2;
+}
+
+#cp {
+  width: 70%;
+  height: auto;
+  bottom: 1%;
+  z-index: 1;
+}
+
+navbar {
+  align-items: center;
+  position: relative;
+  top: 1%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0vw 1vw;
+  text-align: center;
+  font-family: "Doto", sans-serif;
+  font-size: 1.25vw;
+  margin: auto;
+}
+
+footer {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  margin-inline: auto;
+  width: fit-content;
+  margin: 0%;
+  padding: 0%;
+  text-align: right;
+}
+
+.footerText {
+  font-family: "Doto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.75vw;
+  opacity: 75%;
+  justify-content: end;
+}

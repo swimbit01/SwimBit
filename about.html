@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>SwimBit | About Me</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@400&family=Doto:wght@700&family=Instrument+Serif:ital@0;1&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        .backgroundImg{
+            background-image: url(assets/img/About/self.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .centre {
+            background: transparent;
+        }
+        .right {
+            background: transparent;
+        }
+        .left {
+            background: transparent;
+        }
+        footer {
+            background-color: black;
+            border: 1px solid #333;
+        }
+
+        .footerText {
+            opacity: 100%;
+        }
+
+        .Text {
+        font-family: "Bitcount Single";
+        font-size: 1.25vw;
+        text-align: justify;
+        }
+
+        .card{
+            background-color: black;
+            color: white;
+            padding: 2%;
+            margin-top: 15%;
+            margin-left: 5%;
+            width: fit-content;
+            border: 1px solid #333;
+        }
+
+        .terminal-cursor {
+        display: inline-block;
+        width: 10px;
+        height: 1em;   
+        background-color: #fff;
+        margin-bottom: 2%;
+        vertical-align: middle;
+        animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+        from, to { background-color: transparent }
+        50% { background-color: #fff; } /* Swaps between clear and white */
+        }
+
+        .label {
+            color: yellow;
+            font-family: "Bitcount Single";
+            font-size: 1.25vw;
+            text-align: justify;
+        }
+
+    </style>
+    <body>
+    <div class="backgroundImg">
+        <div class="container-main">
+            <div class="left">
+                <div class="card">
+                        <span class="Text"><span style="color: lime;">[swimbit@nixos:~]$ </span><span class="Text">fastfetch</span></span><br><br>
+                        <span class="label">Owner: </span><span class="Text">Durgesh [aka SwimBit]</span></span><br>
+                        <span class="label">Hardware: </span><span class="Text">ThinkPad T480</span><br>
+                        <span class="label">DE: </span><span class="Text">Gnome</span><br>
+                        <span class="label">Uptime: </span><span class="Text">18 Years</span><br>
+                        <span class="label">Aux: </span><span class="Text">Moondrop Chu 2</span><br>
+                        <span class="label">Portable-hardware: </span><span class="Text">Pixel 3a</span><br>
+                        <span class="label">Cam: </span><span class="Text">Canon PowerShot A3100IS</span><br>
+                        <span class="label">Font: </span><span class="Text">Bitcount Single</span><br>
+                        <span class="label">CPU: </span><span class="Text">Intel i5-8350u @ 3.60Ghz</span><br>
+                        <span class="label">Memory: </span><span class="Text">13.94 GiB / 15.49 GiB (<span style="color: red;">89%</span>)<br>
+                        <span class="label">Battery: </span><span class="Text">39%</span><br>
+                        <span class="label">Locale: </span><span class="Text">en_IN</span><span class="terminal-cursor"></span><br>
+                </div>
+                <div class="cardL">
+                    
+                </div>
+            </div>
+            <div class="centre">
+                <navbar>
+                    <ul class="nav">
+                        <li class="navList"><a href="index.html" id="">Home</a></li>
+                        <li class="navList"><a href="404.html" id="">Thoughts</a></li>
+                        <li class="navList"><a href="404.html" id="">Projects</a></li>
+                        <li class="navList"><a href="404.html" id="">Work</a></li>
+                    </ul>
+                </navbar>
+            </div>
+            <div class="right">
+                <footer>
+                    <span class="footerText">handmade in the digital ocean <br> © 2026 SwimBit</span>
+                </footer>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -15,9 +15,9 @@ body {
 
 .viewport {
   display: grid;
-  grid-template-rows: 2fr 17fr 1fr;
   grid-template-columns: auto;
-  height: 100vh;
+  min-height: 100dvh;
+  min-height: 100vh;
   width: 100vw;
 }
 

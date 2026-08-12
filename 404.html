@@ -8,35 +8,34 @@
     </head>
     <style>
         body{
-            background-color: #0000aa;
+            background-color: #000000;
             background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='20'><text x='1' y='10' fill='rgba(255,255,255,0.25)' font-size='10' font-weight='bold'>ERROR</text></svg>");
             background-repeat: repeat;
             overflow: hidden;
             margin: 0px;
             padding: 0px;
         }
+        
+        .errorBody {
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+            height: 100vh;
+        }
+
         .kp {
             font-family: "Instrument Serif";
-            font-size: 5vw;
-            position: relative;
-            left: 1%;
-            top: 0%;
-            padding: 0%;
-            margin: 0%;
-            display: grid;
+            font-size: 10rem;
             color: #ffffff;
+            width: 100vw;
         }
 
         .errorText {
-            display: grid;
-            font-family: "Xanh Mono";
-            font-size: 1.5vw;
-            position: relative;
-            left: 1%;
-            top: 0%;
-            padding: 0%;
-            margin: 0%;
-            margin-inline: auto;
+            font-family: "Instrument Serif";
+            font-size: 2rem;
             color: #ffffff;
         }
 
@@ -45,8 +44,9 @@
         }
     </style>
     <body>
-        <span class="kp">KERNEL PANIC!</span>
-        <span class="errorText">The computer was unable to process this page, Please</span>
-        <span class="errorText"><a href="index.html">go back.</a></span>
+        <div class="errorBody">
+            <div class="kp">ERROR!</div><br>
+            <div class="errorText">The computer was unable to process this page, Please <din class="errorText"><a href="index.html">go back.</a></div></div>
+        </div>
     </body>
 </html>

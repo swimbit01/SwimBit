@@ -1,14 +1,12 @@
 # SwimBit
 Welcome to the digital archive of SwimBit
 
-![Home Page of SwimBit](assets/previews/home.webp)
-
 ## Info
 This project serves as a way to preserve/showcase my personal Art, Thoughts & Work at one place, while also providing a way to learn basic web development.
-Hence everything present in this place is self-made without the use of any AI (that's why some code might look rather amateur)
+Hence everything present in this place is self-made without the use of any AI {Apart from sharing the progress cuz i got no one else 🥀)
 
-The site is in it's very veryy early days, though I have tried to keep it as much simple as I possibly could. As of now it has only been optimized for larger screen and that too for landscape view only, 
-further advancements, as I learn more, should bring on better usability features and *my stuff* (currently it opens up an error page while going to sections that are yet to be made)
+The site is in it's early days.  
+further advancements shall be done as I learn more, should bring on better usability features and *my stuff* (currently it opens up an error page while going to sections that are yet to be made)
 
 ## License & Usage
 The underlying source code layout is licensed under the **MIT License**.
